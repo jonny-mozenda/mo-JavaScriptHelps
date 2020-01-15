@@ -17,8 +17,8 @@ This website shows a map with locations marked and a list of those marked locati
 
 When you click on these you can look at the "Response" to determine if it contains the information you're looking for. Below, we can see that there's a Latitude and Longitude returned, and as you scroll over you can find the location title, address, website, etc.
 
-<img src="GETPOST Example/CosmoProfCall.png" alt="Cosmo Prof Response" />
+<img src="GETPOST Example/CosmoProfCall.PNG" alt="Cosmo Prof Response" />
 
 Next, you'll need to check the headers to determine if it is a GET or POST request. GET requests mostly allow the user to simply enter in a web URL that loads all of this information. However, POST requests often require additional headers to be added to run the request. This is a simple GET request. We'll talk about a POST request later.
 
-<img src="GETPOST Example/CosmoProfHeaders.png" alt="Cosmo Prof Headers" />
+<img src="GETPOST Example/CosmoProfHeaders.PNG" alt="Cosmo Prof Headers" />
