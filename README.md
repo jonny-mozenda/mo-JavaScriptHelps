@@ -31,7 +31,7 @@ https://maps.cosmoprofbeauty.com/api/getAsyncLocations?template=search&level=sea
 
 This is the URL you will be loading into. Notice the "search=90210" input at the end of the URL.
 
-Copy this URL and open it in a new webpage. It should open a page full of text. This is actually a JSON storing much of the data being shown about the various locations including the Latitude/Longitude, address, city, state, zip, name of the location, and the URL for that location. However, it's incredibly hard to read and understand when it's just in a huge block of text. Luckily, d the code attached manipulates the data to be returned in easy to follow tables, along with taking care of the Unicode on the page.
+Copy this URL and open it in a new webpage. It should open a page full of text. This is actually a JSON storing much of the data being shown about the various locations including the Latitude/Longitude, address, city, state, zip, name of the location, and the URL for that location. However, it's incredibly hard to read and understand when it's just in a huge block of text. Luckily, the code in this repository manipulates the data to be returned in easy to follow tables, along with taking care of the Unicode on the page.
 
 <img src="GETPOST Example/CosmoProfJSONTable.png" alt="Cosmo Prof Headers" />
 
