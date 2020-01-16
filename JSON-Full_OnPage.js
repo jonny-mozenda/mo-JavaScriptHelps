@@ -8,7 +8,6 @@ for (x in object)
 	tr.setAttribute("class",x);
 	var td1 = document.createElement("TD");
 	td1.setAttribute("class","name");
-	td1.setAttribute("style","white-space: pre-wrap;")
 	td1.textContent = x;
 	tr.appendChild(td1);
 	node.appendChild(tr);
@@ -18,6 +17,7 @@ for (x in object)
 		var tbody = document.createElement("TBODY");
 		table.appendChild(tbody);
 		table.setAttribute("type","object");
+		td1.setAttribute("style", "white-space: pre-wrap;");
 		table.setAttribute("class",x);
 
 		parse(object[x],tbody);
@@ -40,7 +40,7 @@ for (x in object)
 }
 }
 
-var fileText = document.getElementById("fileText").textContent;
+var fileText = document.getElementsByTagName("pre")[0].textContent;
 document.open();
 document.close();
 var object = JSON.parse(fileText);

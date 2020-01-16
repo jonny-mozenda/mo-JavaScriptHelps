@@ -58,6 +58,7 @@ xhttp.onreadystatechange = function() {
 	parse(object,tbody);
     }
 };
-xhttp.open("POST", /*Enter URL here*/, true);
+xhttp.open(/*Either "POST" or "GET"*/, /*Enter URL here*/, false);
+//setRequestHeader is normally only used in POST Requests
 xhttp.setRequestHeader(/*Header Name*/, /*Header Value*/);
-xhttp.send(/*Enter Post Data Here*/);
+xhttp.send(/*Enter Post Data Here. If a GET request leave empty*/);
